@@ -31,7 +31,7 @@ const Counter = ({ end, duration }) => {
         <h2 className="text-3xl font-bold text-sky-500">
           <Counter end={number} duration={3000} />
         </h2>
-        <p className="text-sm font-semibold text-slate-900 text-center">{text}</p>
+        <p className="text-sm font-semibold text-slate-900 text-center capitalize">{text}</p>
       </div>
       </div>
       </>

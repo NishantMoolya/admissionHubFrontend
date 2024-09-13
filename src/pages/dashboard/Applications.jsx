@@ -12,9 +12,9 @@ const Applications = () => {
   return (
     <div className='flex flex-col gap-4'>
         <div className='flex justify-evenly items-center'>
-       <CounterWithText text={'Total Applications'} number={150} />
-       <CounterWithText text={'Total Applications'} number={100} />
-       <CounterWithText text={'Total Applications'} number={50} />
+       <CounterWithText text={'Total students applied'} number={150} />
+       <CounterWithText text={'under progress'} number={100} />
+       <CounterWithText text={'Total students admitted'} number={50} />
         </div>
         <div className='flex flex-col gap-2'>
         <p className='text-lg font-semibold '>Admission Applications</p>

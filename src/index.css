@@ -21,3 +21,7 @@ code {
   background-color: #f0f9ff;
   border-radius: 0.375rem;
 }
+
+.navbar.active{
+  text-decoration: underline;
+}

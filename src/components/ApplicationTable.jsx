@@ -16,9 +16,10 @@ const ApplicationTable = ({ students }) => {
       <table className="min-w-full bg-white border border-gray-300">
         <thead>
           <tr>
-            <th className="px-4 py-2 border-b bg-gray-100">#</th>
+            <th className="px-4 py-2 border-b bg-gray-100">No.</th>
             <th className="px-4 py-2 border-b bg-gray-100">Student Name</th>
-            <th className="px-4 py-2 border-b bg-gray-100">School ID</th>
+            <th className="px-4 py-2 border-b bg-gray-100">Student ID</th>
+            <th className="px-4 py-2 border-b bg-gray-100">Current School ID</th>
             <th className="px-4 py-2 border-b bg-gray-100">Application Status</th>
             <th className="px-4 py-2 border-b bg-gray-100">Action</th>
           </tr>
@@ -27,6 +28,7 @@ const ApplicationTable = ({ students }) => {
           {studentData.map((student, index) => (
             <tr key={index} className="hover:bg-gray-100">
               <td className="px-4 py-2 border-b text-center">{index + 1}</td>
+              <td className="px-4 py-2 border-b text-center">{student.name}</td>
               <td className="px-4 py-2 border-b text-center">{student.name}</td>
               <td className="px-4 py-2 border-b text-center">{student.schoolId}</td>
               <td className="px-4 py-2 border-b text-center">{student.status}</td>

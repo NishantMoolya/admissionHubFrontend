@@ -24,15 +24,9 @@ const Dashboard = () => {
             <hr />
             <List label={'School Requests'} route={'/dashboard/schoolrequests'} ><i class="fa-solid fa-chart-simple"></i></List>
             <hr />
-            <List label={'menu card'} route={'/dashboard/menu'} ><i class="fa-solid fa-book"></i></List>
+            <List label={'Manage Admission'} route={'/dashboard/admissions'} ><i class="fa-solid fa-book"></i></List>
             <hr />
-            <List label={'staff'} route={'/dashboard/staff'} >
-            <i class="fa-solid fa-person"></i>
-            </List>
-            <hr />
-            <List label={'setting'} route={'/dashboard/setting'} ><i class="fa-solid fa-gear"></i></List>
-            <hr />
-            <List label={'report'} route={'/dashboard/report'} ><i class="fa-solid fa-file"></i></List>
+            <List label={'Students'} route={'/dashboard/students'} ><i class="fa-solid fa-book"></i></List>
             <hr />
               <li className='flex-1 flex'>
                     <div className='self-end flex gap-2 py-2 px-3 rounded-md bg-red-50 text-red-500 ml-auto items-center w-full justify-center hover:bg-red-500 hover:text-white'>
